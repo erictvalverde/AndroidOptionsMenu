@@ -1,3 +1,6 @@
+//add the following block of code to the main JS file for each section of your app
+//change the option1 to any name you want, do the same with the title and any other configs you see fit
+//Dublicate or remove Options to add or remove items from your menu
 
 //Set up the android Options menu
 var setUpAndroidMenu = function(){
