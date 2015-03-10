@@ -1,12 +1,3 @@
-# AndroidOptionsMenu
-Little commom js module to set up an Options Menu for the Android action bar using Titanium Alloy
-
-Getting Started
-===============
-
-1 - Save the androidOptionsMenu.js in your lib folder
-
-2 - Add the following block of code to the main file for each section of your app (e.g. index.js)
 
 //Set up the android Options menu
 var setUpAndroidMenu = function(){
@@ -51,10 +42,11 @@ var optionTwo = function(){
 };
 
 
-3 - This is how you hide a menu Item programaticaly
+//This is how you hide a menu Item programaticaly
 if (OS_ANDROID) {
 	require('androidOptionsMenu').updateAndroidMenu({
 		itemId: 2,
 		visible: false // Change to true to show a hidden item
 	});
 }
+
